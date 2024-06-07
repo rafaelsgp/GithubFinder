@@ -1,0 +1,80 @@
+.repository p {
+    margin-bottom: 1.5rem;
+}
+
+.repos {
+    background-color: #2b3566;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.repos_container {
+    background-color: #0e1129;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: 2px solid #644aff;    
+}
+
+.repos_container p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    text-align: left;
+    gap: 0.3rem;
+}
+
+.repos_container svg {
+    align-items: center;
+}
+
+.repos_container a {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    text-align: center;
+    background-color: #2b3566;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    opacity: 0.8;
+    transition: 0.3s;
+    gap: 0.2rem;
+}
+
+.repos_container a:hover {
+    opacity: 1;
+}
+
+.repos_stats {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.repos_stat {    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon_stat { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem;   
+    height: 25px;
+    background-color: #644aff;    
+}
+
+.p_stat p {
+    margin: auto;  
+    padding: 0.2rem;  
+    border: 1px solid #644aff;
+    height: 25px;
+}
